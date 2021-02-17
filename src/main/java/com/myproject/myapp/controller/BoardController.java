@@ -23,9 +23,9 @@ public class BoardController {
 		logger.info("Welcome home! The client locale is {}.", boardManager.getAllBoardList());
 		
 		for (int i = 0; i < boardManager.getAllBoardList().size(); i++) {
-//			logger.info("Welcome home! The client locale is {}.", boardManager.getAllBoardList().get(0).getId());
-//			logger.info("Welcome home! The client locale is {}.", boardManager.getAllBoardList().get(0).getfName());
-//			logger.info("Welcome home! The client locale is {}.", boardManager.getAllBoardList().get(0).getlName());
+//			logger.info("Welcome home! The client locale is {}.", boardManager.getAllBoardList().get(i).getId());
+//			logger.info("Welcome home! The client locale is {}.", boardManager.getAllBoardList().get(i).getfName());
+//			logger.info("Welcome home! The client locale is {}.", boardManager.getAllBoardList().get(i).getlName());
 		}
 		model.addAttribute("boardLists", boardManager.getAllBoardList());
 		
